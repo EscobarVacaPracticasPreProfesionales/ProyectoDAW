@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="author" content="Jose Escobar, Fernando Vaca">
+<title>HIS Contactenos</title>
+<link rel="stylesheet" href="../css/contactus.css" type="text/css">
+<link href="../css/header_footer.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header id="header">
+	<div id="headerholder">
+		<div id="logoholder">
+			<div id="logo"> HIS SISTEMAS </div>
+		</div>
+		<div id="horLine">
+			<hr id="line">
+		</div>
+		<nav id="navbarHolder">
+			<a href="index.html">Principal</a>
+			<a href="services.html">Servicios</a>
+			<a href="news.html">Referencias</a>
+			<a href="us.html">Nosotros</a>
+			<a href="contactus.html">Contáctenos</a>
+			<a href="search.html">Buscador</a>
+		</nav>
+	</div>
+</header>
+<section id="formulario">
+	<h1> Consultas </h1>
+	<div id="consultasHolder">
+		<div id="formularioHolder">
+			<form title="Consulta" method="post">
+				<div>
+					<label class="lato" for="name">Nombre:</label>
+					<input type="text" id="name" name="name" value="" pattern="[A-za-z ]+" placeholder="John Doe" required/>
+				</div>
+				<div>
+					<label class="lato" for="email">Email: </label>
+					<input type="email" id="email" name="email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="your@email.com" required>
+				</div>
+				<div>
+					<label class="lato" for="subject">Asunto: </label>
+					<input type="text" id="subject" name="subject" value="" placeholder="Servicio de cableado, por ejemplo" required>
+				</div>
+				<div>
+					<label class="lato" for="message">Mensaje: </label>
+					<textarea id="message" name="message" placeholder="Escribe tu mensaje/consulta aquí" required></textarea>
+				</div>
+				<div>
+					<label class="lato" for="file">Adjuntar documento: </label>
+					<input type="file" name="file" id="file" accept="application/pdf">
+				</div>
+				<div>
+					<input class="lato" type="submit" value="Enviar" id="submit">
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<section id="info">
+	<h1> Información de contacto </h1>
+	<div>
+		<div id="datos">
+			<p>
+				Guayaquil-Ecuador
+				<br>
+				Direccion: Chimborazo 3216 entre Vacas Galando y Cañar
+				<br>
+				Telefonos: (04) 2347574 -  2580379
+				<br>
+				email: hissistemasgye@gmail.com
+			</p>
+		</div>
+		<div id="mapa">
+			<img src="https://via.placeholder.com/350x150" alt="Mapa Ubicación">
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="lato"> ©2018 HIS Sistemas C. Ltda. Todos los derechos reservados. </div>
+</footer>
+</body>
+</html>

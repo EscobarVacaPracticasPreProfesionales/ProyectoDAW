@@ -1,0 +1,48 @@
+/* CSS Document */
+#headerholder, #header {
+	width: 100%;
+	height: 200px;
+}
+#headerholder {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 100%;
+}
+#logoholder {
+	position: absolute;
+	height: 40%;
+	width: 100%;
+	top: 10%;
+}
+#logo {
+	position: absolute;
+	min-width: 324px;
+	height: 72px;
+	background: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#horLine {
+	position: absolute;
+	top: 50%;
+	height: 10%;
+	width: 100%;
+}
+#line {
+	border: 1px solid black;
+}
+#navbarHolder {
+	position: absolute;
+	top: 60%;
+	height: 40%;
+	width: 100%;
+}
+#navbar {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+}
+
+
