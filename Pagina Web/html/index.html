@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
 	<meta charset="utf-8">
@@ -11,13 +11,12 @@
 </head>
 
 <body>
-	<header id="header">
+	<section id="top">
 		<div id="headerholder">
-			<div id="logoholder">
+			<header id="logoholder">
 				<div id="logo">
-					HIS SISTEMAS
 				</div>
-			</div>
+			</header>
 			<div id="horLine">
 				<hr id="line">
 			</div>
@@ -33,73 +32,71 @@
 				</nav>
 			</div>
 		</div>
-	</header>
+	</section>
 	
 	<section id="productos">
 		<div id="productoImgs">
 			<div class="producto">
 				<div class="imgP" id="imgProd1">
-					<!--SON TEMPORALES ESTAS IMAGENES, SE AJUSTARA EN PROXIMOS AVANCES-->
-					<img src="https://via.placeholder.com/350x150" alt="Producto1">
-				</div>
-				<div class="descripcion">
-					<h1 class="tituloP">
-						PROYECTORES Y PIZARRAS DIGITALES
-					</h1>
-					<p class="textoP">
-						Para instituciones educativas y compañías
-					</p>
-					<div class="botonP">
-						<button class="boton" id="botonC1" type="button"><a href="contactus.html">Contáctenos</a></button>
+					<div class="descP">
+						<h1 class="tituloP">
+							PROYECTORES Y PIZARRAS DIGITALES
+						</h1>
+						<p class="textoP">
+							Para instituciones educativas y compañías
+						</p>
+						<div class="botonP">
+							<button class="boton" id="botonC1" type="button"><a href="contactus.html">Contáctenos</a></button>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 
 			<div class="producto">
 				<div class="imgP" id="imgProd2">
-					<img src="https://via.placeholder.com/350x150" alt="Producto2">
-				</div>
-				<div class="descripcion">
-					<h1 class="tituloP">
-						DATA CENTER Y CABLEADO ESTRUCTURADO
-					</h1>
-					<p class="textoP">
-						En instituciones educativas, compañias y oficinas
-					</p>
-					<div class="botonP">
-						<button class="boton" id="botonC2" type="button"><a href="contactus.html">Contáctenos</a></button>
+					<div class="descP">
+						<h1 class="tituloP">
+							DATA CENTER Y CABLEADO ESTRUCTURADO
+						</h1>
+						<p class="textoP">
+							En instituciones educativas, compañias y oficinas
+						</p>
+						<div class="botonP">
+							<button class="boton" id="botonC2" type="button"><a href="contactus.html">Contáctenos</a></button>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="producto">
 				<div class="imgP" id="imgProd3">
-					<img src="https://via.placeholder.com/350x150" alt="Producto2">
-				</div>
-				<div class="descripcion">
-					<h1 class="tituloP">
-						VENTAS DE EQUIPOS DE COMPUTACIÓN
-					</h1>
-					<p class="textoP">
-						Monitores, CPU's, Teclados, Ratones, Parlantes y mucho más
-					</p>
-					<div class="botonP">
-						<button class="boton" id="botonC3" type="button"><a href="contactus.html">Contáctenos</a></button>
+					<div class="descP">
+						<h1 class="tituloP">
+							VENTAS DE EQUIPOS DE COMPUTACIÓN
+						</h1>
+						<p class="textoP">
+							Monitores, CPU's, Teclados, Ratones, Parlantes y mucho más
+						</p>
+						<div class="botonP">
+							<button class="boton" id="botonC3" type="button"><a href="contactus.html">Contáctenos</a></button>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 
 			<!-- botones sig ant -->
-			<a class="ant">&#10094;</a>
-			<a class="sig">&#10095;</a>
+			<a class="ant" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="sig" onclick="plusSlides(1)">&#10095;</a>
 		</div>
 		<br>
 
 		<!-- Circulos -->
 		<div id="circulos">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 	</section>
 	
@@ -168,7 +165,7 @@
 			</div>
 		</div>
 		<div class="botonH">
-			<button class="boton" id="botonL2" type="button"><a href="news.html">Conoce más</a></button>
+			<button class="boton" id="botonL2" type="button"><a href="news.html"></a>Conoce más</button>
 		</div>
 	</section>
 	
@@ -198,6 +195,8 @@
 			©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.
 		</div>
 	</footer>
+	
+	
 </body>
 
 </html>
