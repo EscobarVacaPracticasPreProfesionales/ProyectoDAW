@@ -1,10 +1,14 @@
-/* CSS Document */
+/* CSS Document 
+#productos{
+	width: 100%;
+	margin-left: 0px;	
+}
 
 #productoImgs {
 	width: 100%;
 	position: relative;
 	margin: auto;
-	box-sizing: border-box;
+	margin-sizing: border-box;
 }
 
 .imgP{
@@ -42,52 +46,36 @@
 }
 
 .producto{
-	display: none;
 	background-color: aqua;
 	height: 450px;
 }
-/* Clear floats after image containers */
-.producto::after {
-	content: "";
-	clear: both;
-	display: table;
-}
 
-.ant,.sig{
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
+
+#servicios{
 	width: auto;
-	padding: 16px;
-	color: white;
-	transition: 0.4s ease;
-	font-weight: bolder;
-	font-size: 50px;
+	height: 450px;
+	background-color: aqua;
 }
 
-.sig{
-	right: 0;	
+#serviciosImg{
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	background-color: blue;
 }
 
-.sig:hover,.ant:hover{
-	color: rgba(0,0,0,0.60);
+.serviceHolder{
+	width: 30%;
+	padding: 15px;
+	vertical-align: top;
+	border: solid;
+	float: left;
 }
 
-#circulos{
-	text-align: center;
+.botonH{
+	position: relative;
+	width: 100px;
+	height: 30px;
+	background-color: blueviolet;
 }
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
+/*

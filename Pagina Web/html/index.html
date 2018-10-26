@@ -3,100 +3,77 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Jose Escobar, Fernando Vaca">
 	<title>HIS Sistemas</title>
-	<link href="../css/index.css" rel="stylesheet" type="text/css">
-	<link href="../css/header_footer.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/header_footer.css" type="text/css">
+	<link rel="stylesheet" href="../css/index.css" type="text/css">
 </head>
 
 <body>
-	<section id="top">
-		<div id="headerholder">
-			<header id="logoholder">
-				<div id="logo">
-				</div>
-			</header>
-			<div id="horLine">
-				<hr id="line">
-			</div>
-			<div id="navbarHolder">
-				<nav id="navbar">
-					<a href="index.html">Principal</a>
-					<a href="services.html">Servicios</a>
-					<a href="news.html">Referencias</a>
-					<a href="us.html">Nosotros</a>
-					<a href="contactus.html">Contáctenos</a>
-					<a href="search.html">Buscador</a>
-					<input type="search" id="buscador" name="buscadorHIS" placeholder="Buscar">
-				</nav>
-			</div>
-		</div>
+	<section class="container" id="top">
+		<header class="row" id="logoholder">
+			<img clas="col-auto col-sm-12 col-md-12 col-lg-12" src="../img/logo.png" alt="logoHIS">
+		</header>
+		<hr class="col-" id="line">
+		<nav class="row" id="navbar">
+			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="index.html">Principal</a>
+			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="services.html">Servicios</a>
+			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="news.html">Referencias</a>
+			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="us.html">Nosotros</a>
+			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="contactus.html">Contáctenos</a>
+			<input class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" type="search" id="buscador" name="buscadorHIS" placeholder="Buscar">
+		</nav>
 	</section>
-	
-	<section id="productos">
-		<div id="productoImgs">
-			<div class="producto">
-				<div class="imgP" id="imgProd1">
-					<div class="descP">
-						<h1 class="tituloP">
-							PROYECTORES Y PIZARRAS DIGITALES
-						</h1>
-						<p class="textoP">
-							Para instituciones educativas y compañías
-						</p>
-						<div class="botonP">
-							<button class="boton" id="botonC1" type="button"><a href="contactus.html">Contáctenos</a></button>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-
-			<div class="producto">
-				<div class="imgP" id="imgProd2">
-					<div class="descP">
-						<h1 class="tituloP">
-							DATA CENTER Y CABLEADO ESTRUCTURADO
-						</h1>
-						<p class="textoP">
-							En instituciones educativas, compañias y oficinas
-						</p>
-						<div class="botonP">
-							<button class="boton" id="botonC2" type="button"><a href="contactus.html">Contáctenos</a></button>
-						</div>
-					</div>
+	<br>
+	<section class="container-fluid" id="productos">
+		<div class="producto row">
+			<img class="img-fluid col-sm-12 col-md-12 col-lg-8" src="https://via.placeholder.com/1000x500" alt="producto1">
+			<div class="col-sm-12 col-md-12 col-lg-2">
+				<h1 class="tituloP">
+					PROYECTORES Y PIZARRAS DIGITALES
+				</h1>
+				<p class="textoP">
+					Para instituciones educativas y compañías
+				</p>
+				<div class="botonP">
+					<button class="boton" id="botonC1" type="button"><a href="contactus.html">Contáctenos</a></button>
 				</div>
 			</div>
-
-			<div class="producto">
-				<div class="imgP" id="imgProd3">
-					<div class="descP">
-						<h1 class="tituloP">
-							VENTAS DE EQUIPOS DE COMPUTACIÓN
-						</h1>
-						<p class="textoP">
-							Monitores, CPU's, Teclados, Ratones, Parlantes y mucho más
-						</p>
-						<div class="botonP">
-							<button class="boton" id="botonC3" type="button"><a href="contactus.html">Contáctenos</a></button>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-
-			<!-- botones sig ant -->
-			<a class="ant">&#10094;</a>
-			<a class="sig">&#10095;</a>
 		</div>
-		<br>
 
-		<!-- Circulos -->
-		<div id="circulos">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+		<div class="producto">
+			<div class="imgP" id="imgProd2">
+				<div class="descP">
+					<h1 class="tituloP">
+						DATA CENTER Y CABLEADO ESTRUCTURADO
+					</h1>
+					<p class="textoP">
+						En instituciones educativas, compañias y oficinas
+					</p>
+					<div class="botonP">
+						<button class="boton" id="botonC2" type="button"><a href="contactus.html">Contáctenos</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="producto">
+			<div class="imgP" id="imgProd3">
+				<div class="descP">
+					<h1 class="tituloP">
+						VENTAS DE EQUIPOS DE COMPUTACIÓN
+					</h1>
+					<p class="textoP">
+						Monitores, CPU's, Teclados, Ratones, Parlantes y mucho más
+					</p>
+					<div class="botonP">
+						<button class="boton" id="botonC3" type="button"><a href="contactus.html">Contáctenos</a></button>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 	
@@ -136,7 +113,7 @@
 					<img src="https://via.placeholder.com/140x100" alt="service1">
 				</div>
 				<h2>
-					Soporte Ténico
+					Soporte Técnico
 				</h2>
 				<p>
 					Soporte Técnico para reparación de equipos, Instalación y configuración de Software.
@@ -165,7 +142,7 @@
 			</div>
 		</div>
 		<div class="botonH">
-			<button class="boton" id="botonL2" type="button"><a href="news.html"></a>Conoce más</button>
+			<button class="boton" id="botonL2" type="button"><a href="news.html">Conoce más</a></button>
 		</div>
 	</section>
 	
@@ -196,6 +173,10 @@
 		</div>
 	</footer>
 	
+	
+	<script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  
 	
 </body>
 
