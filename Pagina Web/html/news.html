@@ -5,37 +5,32 @@
 <meta name="author" content="Jose Escobar, Fernando Vaca">
 <meta name="Description" content="Pagina Web Corporativa de HIS">
 <title>HIS Referencias</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/header_footer.css" type="text/css">
 </head>
 
 <body>
-    <header id="header">
-        <div id="headerholder">
-            <div id="logoholder">
-                <div id="logo">
-                    HIS SISTEMAS
-                </div>
-            </div>
-            <div id="horLine">
-                <hr id="line">
-            </div>
-            <div id="navbarHolder">
-                <nav id="navbar">
-                    <a href="index.html">Principal</a>
-                    <a href="services.html">Servicios</a>
-                    <a href="news.html">Referencias</a>
-                    <a href="us.html">Nosotros</a>
-                    <a href="contactus.html">Contáctenos</a>
-                    <a href="search.html">Buscador</a>
-					<input type="search" id="buscador" name="buscadorHIS" placeholder="Buscar">
-                </nav>
-            </div>
-        </div>
-    </header>
+    <section class="container" id="top">
+        <header class="row" id="logoholder">
+            <img class="col-auto col-sm-12 col-md-12 col-lg-4" src="../img/logo.png" alt="logoHIS">
+        </header>
+        <hr class="col-" id="line">
+        <nav class="row" id="navbar">
+            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="index.html">Principal</a>
+            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="services.html">Servicios</a>
+            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="news.html">Referencias</a>
+            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="us.html">Nosotros</a>
+            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="contactus.html">Contáctenos</a>
+            <input class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" type="search" id="buscador" name="buscadorHIS" placeholder="Buscar">
+        </nav>
+    </section>
+    <br>
     <section>
-        <div id="noticias">
-            <article>
-                <div id="noticias1"></div>
-                <div class="info">
+        <div class="container-fluid" id="noticias">
+            <article class="row" id="noticia1">
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen1" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia1">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Equipamiento de sala de excelencia en la Facultad de Economía de la Universidad Estatal de Guayaquil</h2>
                     <time datetime="2018">2018</time>
                     <div>
@@ -45,9 +40,8 @@
                     </div>
                 </div>
             </article>
-            <article>
-                <div id="noticias2"></div>
-                <div class="info">
+            <article class="row" id="noticia2">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Reingeniería eléctrica e instalación de transformadores trifásicos en el Monasterio de Nuestra Señora de la Eucaristía</h2>
                     <time datetime="2015">2015</time>
                     <div>
@@ -56,12 +50,16 @@
                         </button>
                     </div>
                 </div>
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen2" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia2">
+
             </article>
-            <article>
-                <div id="noticias3"></div>
-                <div class="info">
+            <article class="row" id="noticia3">
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen3" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Datacenter, instalación de fibra óptica y cableado estructurado en la Universidad Laica Vicente Rocafuerte</h2>
-                    <time datetime="2011">2011-2013</time>
+                    <time datetime="2013">2013</time>
                     <div>
                         <button class="boton" id="botonN3" type="button">
                             Conoce más
@@ -69,9 +67,8 @@
                     </div>
                 </div>
             </article>
-            <article>
-                <div id="noticias4"></div>
-                <div class="info">
+            <article class="row" id="noticia4">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Cableado estructurado en Colegio Técnico Salesiano San Rafael</h2>
                     <time datetime="2013">2013</time>
                     <div>
@@ -80,10 +77,14 @@
                         </button>
                     </div>
                 </div>
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen4" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia4">
+
             </article>
-            <article>
-                <div id="noticias5"></div>
-                <div class="info">
+            <article class="row" id="noticia5">
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen5" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Equipamiento de dispositivos de cómputo y pizarras interactivas en la Unidad Educativa FAE# 2</h2>
                     <time datetime="2013">2013</time>
                     <div>
@@ -93,9 +94,8 @@
                     </div>
                 </div>
             </article>
-            <article>
-                <div id="noticias6"></div>
-                <div class="info">
+            <article class="row" id="noticia6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Control biométrico y adecuación de Data Center en la Unidad Educativa Domingo Savio</h2>
                     <time datetime="2011">2011</time>
                     <div>
@@ -104,12 +104,16 @@
                         </button>
                     </div>
                 </div>
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen6" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia6">
+
             </article>
-            <article>
-                <div id="noticias7"></div>
-                <div class="info">
+            <article class="row" id="noticia7">
+                <img class="img-fluid col-12 col-sm-12 col-md-12 col-lg-8" id="imagen7" 
+                src="https://via.placeholder.com/700x500" alt="imgNoticia7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                     <h2>Remodelación y Automatización del Despacho Presidencial</h2>
-                    <time datetime="2007">2007</time>
+                    <time datetime="2017">2007</time>
                     <div>
                         <button class="boton" id="botonN7" type="button">
                             Conoce más
@@ -117,7 +121,6 @@
                     </div>
                 </div>
             </article>
- 
         </div>
     </section>
     <footer>
@@ -130,3 +133,4 @@
     
 </body>
 </html>
+
