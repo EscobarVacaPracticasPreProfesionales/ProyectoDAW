@@ -1,7 +1,16 @@
 
 
-.tituloP,.textoP{
+.tituloP,.textoP,.boton,.imgen{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+.prod{
+	height:  100%;
+}
+
+.ik{
+	height: 140px;
+	width: 140px;
 }

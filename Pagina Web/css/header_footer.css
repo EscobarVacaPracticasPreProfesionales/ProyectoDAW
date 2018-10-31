@@ -1,22 +1,42 @@
-nav a, nav input{
-	text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
 
 #line {
 	border: 1px solid black;
 }
 
-#navbar {
-  	overflow: hidden;
-}
-
-#navbar a {
-	float: left;
+#navbar a, nav input{
 	color: black;
 	text-align: center;
 	text-decoration: none;
 }
 
 #navbar a:hover {
-	background-color: #ddd;
+	background-color: #5CB1F7;
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+
+.mont{
+	font-family: 'Montserrat' ,sans-serif;
+	font-weight: bolder;
+}
+
+.rale{
+	font-family: 'Raleway',sans-serif;
+}
+
+.wl{
+	color: #FFFFFF;
+}
+
+footer{
+	background-color: #01090F;
 }

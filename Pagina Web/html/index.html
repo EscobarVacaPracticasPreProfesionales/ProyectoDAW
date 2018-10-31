@@ -12,172 +12,263 @@
 </head>
 
 <body>
-	<section class="container" id="top">
-		<header class="row" id="logoholder">
-			<img class="col-auto col-sm-12 col-md-6 col-lg-4" src="../img/logo.png" alt="logoHIS">
-		</header>
-		<hr id="line">
-		<nav class="row" id="navbar">
-			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="index.html">Principal</a>
-			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="services.html">Servicios</a>
-			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="news.html">Referencias</a>
-			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="us.html">Nosotros</a>
-			<a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="contactus.html">Contáctenos</a>
-			<input class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" type="search" id="buscador" name="buscadorHIS" placeholder="Buscardor">
-		</nav>
-	</section>
-	<br>
-	
-	<section class="container-fluid" id="productos">
-		<div class="producto row border border-dark">
-			<div class="p-0 col col-12 col-sm-12 col-md-12 col-lg-8">
-				<img class="img-fluid" src="https://via.placeholder.com/1000x500" alt="producto1">
-			</div>
-			<div class="col col-12 col-sm-12 col-md-12 col-lg-4">
-				<h1 class="tituloP row">
-					PROYECTORES Y PIZARRAS DIGITALES
-				</h1>
-				<div class="row">
-					<p class="textoP">
-						Para instituciones educativas y compañías
-					</p>
-				</div>
-				<a href="contactus.html" class="boton btn btn-info col col-lg-auto">Contáctenos</a>
-			</div>
+	<div class="container-fluid">
+		<div class="row">
+			<header class="col-auto col-sm-12 col-md-6 col-lg-4 d-none d-md-block" id="logoholder">
+				<img class="img-fluid " src="../img/logo.png" alt="logoHIS">
+			</header>
 		</div>
-		<br>
-		<div class="producto row border border-dark">
-			<div class="p-0 col col-12 col-sm-12 col-md-12 col-lg-8">
-				<img class="img-fluid" src="https://via.placeholder.com/1000x500" alt="producto2">
-			</div>
-			<div class="col col-12 col-sm-12 col-md-12 col-lg-4">
-				
-				<h1 class="tituloP col col-12">
-					DATA CENTER Y CABLEADO ESTRUCTURADO
-				</h1>
-				<p class="textoP col col-12">
-					En instituciones educativas, compañias y oficinas
-				</p>
-
-				<a href="contactus.html" class="boton btn btn-info col col-lg-auto">Contáctenos</a>
-			</div>
-			
-		</div>
-		<br>
-		<div class="producto row border border-dark">
-			<div class="p-0 col col-12 col-sm-12 col-md-12 col-lg-8">
-				<img class="img-fluid" src="https://via.placeholder.com/1000x500" alt="producto3">
-			</div>
-			<div class="col col-12 col-sm-12 col-md-12 col-lg-4">
-				<h1 class="tituloP col-12">
-					VENTAS DE EQUIPOS DE COMPUTACIÓN
-				</h1>
-				<p class="textoP col col-12">
-					Monitores, CPU's, Teclados, Ratones, Parlantes y mucho más
-				</p>
-				<a href="contactus.html" class="boton btn btn-info col col-lg-auto">Contáctenos</a>
-			</div>
-
-		</div>
-	</section>
-	<br>
-	
-	<section class="container-fluid" id="servicios">
-		<h1 id="serviciosTitulo">Nuestros Servicios</h1>
-		<div class="row" id="serviciosImg">
-			<div class="serviceHolder col col-12 col-sm-12 col-lg-4">
-				<div class="imgServ">
-					<img src="https://via.placeholder.com/140x100" alt="service1">
+		<hr class="d-none d-lg-block" id="line">
+		<div class="row">
+			<nav class="navbar navbar-expand-md navbar-light col col-lg-12">
+				<a class="navbar-brand d-md-none d-sm-block" href="index.html"><img class="img-fluid" src="../img/logo.png" alt="logoHIS"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="menuPrincipal" class="collapse navbar-collapse">
+					<ul class="list-inline navbar-nav mx-auto">
+						<li class="list-inline-item nav-item active"><a class="lato nav-link" href="index.html">Principal</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="services.html">Servicios</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="news.html">Referencias</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="us.html">Nosotros</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="contactus.html">Contáctenos</a></li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+					  <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+					  <button class="lato btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+					</form>
 				</div>
-				<h2>
-					Cableado Estructurado	
-				</h2>
-				<p>
-					HIS Sistemas ofrece una solución completa para sistemas de cableado para redes lan y eléctricas.
-					<br>
-					Soluciones de Cableaddo de Fibra Optica.
-					<br>
-					Instalación de Armarios y Rack.
-				</p>
-			</div>
-			<div class="serviceHolder col-12 col-sm-12 col-lg-4">
-				<div class="imgServ">
-					<img src="https://via.placeholder.com/140x100" alt="service2">
-				</div>
-				<h2>
-					Equipos de Computación	
-				</h2>
-				<p>
-					Venta de computadoras personales, Laptops y periféricos de uso general.
-					<br>
-					Server de Red y equipos de energia continua (UPS) y reguladores.
-				</p>
-			</div>
-			<div class="serviceHolder col-12 col-sm-12 col-lg-4">
-				<div class="imgServ">
-					<img src="https://via.placeholder.com/140x100" alt="service3">
-				</div>
-				<h2>
-					Soporte Técnico
-				</h2>
-				<p>
-					Soporte Técnico para reparación de equipos, Instalación y configuración de Software.
-				</p>
-			</div>
+			</nav>
 		</div>
-		<a class="boton btn btn-info col col-sm-12 col-md-6 col-lg-2" href="services.html">Conoce más</a>
 		
-	</section>
-	<br>
-	
-	<section class="container-fluid" id="clientes">
-		<h1>Nuestros Clientes</h1>
-		<div class="row" id="clientesHolder">
-			<div class="col col-6 col-sm-6 col-md-3" id="imgC1">
-				<img src="https://via.placeholder.com/140x100" alt="clientes1">
-			</div>
-			<div class="col col-6 col-sm-6 col-md-3" id="imgC2">
-				<img src="https://via.placeholder.com/140x100" alt="clientes2">
-			</div>
-			<div class="col col-6 col-sm-6 col-md-3" id="imgC3">
-				<img src="https://via.placeholder.com/140x100" alt="clientes3">
-			</div>
-			<div class="col col-6 col-sm-6 col-md-3" id="imgC4">
-				<img src="https://via.placeholder.com/140x100" alt="clientes4">
-			</div>
-		</div>
 		<br>
-		<a class="btn btn-info col col-md-6 col-lg-2" href="news.html">Conoce más</a>
-	</section>
-	<br>
-	
-	<section class="container-fluid" id="proovedores">
-		<h1>Nuestros Proovedores</h1>
-		<div class="row" id="proovedoresHolder">
-			<div class="col col-6 col-sm-6 col-md-3" id="imgPr1">
-				<img src="https://via.placeholder.com/140x100" alt="clientes1">
+
+		<section class="container-fluid" id="productos">
+			<div class="producto row border border-dark">
+				<div class="p-0 col col-12 col-sm-12 col-md-12 col-lg-8">
+					<img class="img-fluid" src="https://via.placeholder.com/1000x500" alt="producto1">
+				</div>
+				<div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+					<div class="prod row">
+						<div class="tituloP col col-12">
+							<h1 class="mont">
+								PROYECTORES Y PIZARRAS DIGITALES
+							</h1>
+						</div>
+						<div class="textoP col col-12">
+							<h2 class="rale">
+								Para instituciones educativas y compañías
+							</h2>
+						</div>
+						<div class="boton col col-12">
+							<a href="contactus.html" class="lato btn btn-info">Contáctenos</a>
+						</div>
+					</div>
+
+				</div>
 			</div>
-			<div class="col col-6 col-sm-6 col-md-3" id="imgPr2">
-				<img src="https://via.placeholder.com/140x100" alt="clientes2">
+			<br>
+			<div class="producto row border border-dark">
+				<div class="p-0 col col-12 col-sm-12 col-md-12 col-lg-8">
+					<img class="img-fluid" src="https://via.placeholder.com/1000x500" alt="producto2">
+				</div>
+				<div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+					<div class="prod row">
+						<div class="tituloP col col-12">
+							<h1 class="mont">
+								DATA CENTER Y CABLEADO ESTRUCTURADO
+							</h1>
+						</div>
+						<div class="textoP col col-12">
+							<h2 class="rale">
+								En instituciones educativas, compañias y oficinas
+							</h2>
+						</div>
+						<div class="boton col col-12">
+							<a href="contactus.html" class="lato btn btn-info">Contáctenos</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
-			<div class="col col-6 col-sm-6 col-md-3" id="imgPr3">
-				<img src="https://via.placeholder.com/140x100" alt="clientes3">
+
+			<br>
+
+			<div class="producto row border border-dark">
+				<div class="p-0 col col-12 col-sm-12 col-md-12 col-lg-8">
+					<img class="img-fluid" src="https://via.placeholder.com/1000x500" alt="producto3">
+				</div>
+				<div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+					<div class="prod row">
+						<div class="tituloP col col-12">
+							<h1 class="mont">
+								VENTAS DE EQUIPOS DE COMPUTACIÓN
+							</h1>
+						</div>
+						<div class="textoP col col-12">
+							<h2 class="rale">
+								Monitores, CPU's, Teclados, Ratones, Parlantes y mucho más
+							</h2>
+						</div>
+						<div class="boton col col-12">
+							<a href="contactus.html" class="lato btn btn-info">Contáctenos</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
-			<div class="col col-6 col-sm-6 col-md-3" id="imgPr4">
-				<img src="https://via.placeholder.com/140x100" alt="clientes4">
-			</div>
-		</div>
+		</section>
 		<br>
-		<a class="btn btn-info col col-md-6 col-lg-2" href="services.html">Conoce más</a>
-	</section>
-	<br>
-	
-	<footer>
-		<div class="lato">
-			©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.
-		</div>
-	</footer>
-	
+
+		<section class="container-fluid" id="servicios">
+			<h1 class="mont">Nuestros Servicios</h1>
+			<br>
+			<div class="row" id="serviciosImg">
+				<div class="serviceHolder col col-12 col-sm-12 col-lg-4">
+					<div class="row">
+						<div class="imgen col col-12">
+							<img src="../img/cabEstruc.webp" alt="service1">
+						</div>
+
+						<div class="tituloP col col-12">
+							<h2 class="rale">
+								Cableado Estructurado	
+							</h2>
+						</div>
+
+						<div class="textoP col col-12">
+							<p class="lato">
+								HIS Sistemas ofrece una solución completa para sistemas de cableado para redes lan y eléctricas.
+								<br>
+								Soluciones de Cableado de Fibra Optica.
+								<br>
+								Instalación de Armarios y Rack.
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="serviceHolder col col-12 col-sm-12 col-lg-4">
+					<div class="row">
+						<div class="imgen col col-12">
+							<img src="../img/eqComp.webp" alt="service2">
+						</div>
+
+						<div class="tituloP col col-12">
+							<h2 class="rale">
+								Equipos de Computación	
+							</h2>
+						</div>
+
+						<div class="textoP col col-12">
+							<p class="lato">
+								Venta de computadoras personales, Laptops y periféricos de uso general.
+								<br>
+								Server de Red y equipos de energia continua (UPS) y reguladores.
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="serviceHolder col col-12 col-sm-12 col-lg-4">
+					<div class="row">
+						<div class="imgen col col-12">
+							<img src="../img/sopTec.webp" alt="service3">
+						</div>
+
+						<div class="tituloP col col-12">
+							<h2 class="rale">
+								Soporte Técnico	
+							</h2>
+						</div>
+
+						<div class="textoP col col-12">
+							<p class="lato">
+								Soporte Técnico para reparación de equipos, Instalación y configuración de Software.
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="boton col col-12">
+					<a class="lato boton btn btn-info" href="services.html">Conoce más</a>
+				</div>
+			</div>
+		</section>
+		<br>
+
+		<section class="container-fluid" id="clientes">
+			<h1 class="mont">Nuestros Clientes</h1>
+			<div class="row" id="clientesHolder">
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="../img/minLaborales.jpg" alt="clientes1">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="../img/minTurismo.jpg" alt="clientes2">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="../img/alcMilagro.jpg" alt="clientes3">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="../img/ups.png" alt="clientes4">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="../img/favesa.webp" alt="clientes5">
+				</div>
+			</div>
+			<br>
+			<div class="boton col col-md-6 col-lg-2">
+				<a class="lato btn btn-info" href="news.html">Conoce más</a>
+			</div>
+
+		</section>
+		<br>
+
+		<section class="container-fluid" id="proovedores">
+			<h1 class="mont">Nuestros Proovedores</h1>
+			<div class="row" id="proovedoresHolder">
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="https://via.placeholder.com/140x100" alt="clientes1">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="https://via.placeholder.com/140x100" alt="clientes2">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="https://via.placeholder.com/140x100" alt="clientes3">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="https://via.placeholder.com/140x100" alt="clientes4">
+				</div>
+				<div class="imgen col col-6 col-sm-6 col-md-2">
+					<img class="ik img-fluid" src="https://via.placeholder.com/140x100" alt="clientes5">
+				</div>
+			</div>
+			<br>
+			<div class="boton col col-md-6 col-lg-2">
+				<a class="lato btn btn-info" href="services.html">Conoce más</a>
+			</div>
+
+		</section>
+		<br>
+
+		<footer class="container-fluid">
+			<br>
+			<div class="container">
+				<div class="row">
+					<a class="lato wl col col-12" href="index.html">Principal</a>
+					<a class="lato wl col col-12" href="services.html">Servicios</a>
+					<a class="lato wl col col-12" href="news.html">Referencias</a>
+					<a class="lato wl col col-12" href="us.html">Nosotros</a>
+					<a class="lato wl col col-12" href="contactus.html">Contáctenos</a>
+				</div>
+				<br>
+				<div class="row">
+					<p class="lato wl">©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
 	
 	<script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
