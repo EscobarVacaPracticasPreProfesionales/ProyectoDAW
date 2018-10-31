@@ -7,86 +7,138 @@
 <title>HIS Servicios</title>
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 <link rel="stylesheet" href="../css/header_footer.css" type="text/css">
+<link rel="stylesheet" href="../css/services.css" type="text/css">
 </head>
 
 <body>
-    <section class="container" id="top">
-        <header class="row" id="logoholder">
-            <img class="col-auto col-sm-12 col-md-12 col-lg-4" src="../img/logo.png" alt="logoHIS">
-        </header>
-        <hr class="col-" id="line">
-        <nav class="row" id="navbar">
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="index.html">Principal</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="services.html">Servicios</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="news.html">Referencias</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="us.html">Nosotros</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="contactus.html">Contáctenos</a>
-            <input class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" type="search" id="buscador" name="buscadorHIS" placeholder="Buscar">
-        </nav>
-    </section>
-    <br>
-	<section>
-		<div class="container" id="servicios">
-			<div class="row" id="filaServicios1">
-				<article id="servicios1" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Equipamiento de aulas activas</h2>
-					</header>
-					<p>Proporcionamos equipos de última generación que nos permitan trabajar a la par con aplicaciones de ingeniería,
-					desarrolladas para ambientes multimedios de 64 bits, como Autocad, Adobe, MathLab, etc.</p>
-				</article>
-				<article id="servicios2" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Data Center y Cableado Estructurado</h2>
-					</header>
-					<p>Ofrecemos soluciones y servicios para el cableado de su oficina u edificio, con el fin de ofrecerle una conectividad
-					de todos sus equipos activos, permitiendo la integración con los diferentes servicios que disponga:
-					telefonía, datos, seguridad, biometría, etc. , es decir, todo lo referente al cableado voz-datos para redes de comunicaciones.</p>
-				</article>
-				<article id="servicios3" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Redes e Instalaciones eléctricas</h2>
-					</header>
-					<p>Ofrecemos redes eléctricas y subestaciones en media y baja tensión, instalaciones eléctricas internas, iluminación 
-					interior, exterior, ornamental y alumbrado público.</p>
-				</article>
-			</div>
-			<div class="row" id="filaServicios2">
-				<article id="servicios4" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Equipamiento de laboratorios de computación</h2>
-					</header>
-					<p>Creación de laboratorios para computadoras de última generación con aplicaciones para el aprendizaje de los estudiantes.</p>
-				</article>
-				<article  id="servicios5" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Automatización</h2>
-					</header>
-					<p>Automatización de salas de audio y video, auditorios, coliseos, edificios inteligentes, oficinas, hogar, entre otros.</p>
+	<div class="container-fluid">
+		<div class="row">
+			<header class="col-auto col-sm-12 col-md-6 col-lg-4 d-none d-md-block" id="logoholder">
+				<img class="img-fluid " src="../img/logo.png" alt="logoHIS">
+			</header>
+		</div>
+		<hr class="d-none d-lg-block" id="line">
+		<div class="row">
+			<nav class="navbar navbar-expand-md navbar-light col col-lg-12">
+				<a class="navbar-brand d-md-none d-sm-block" href="index.html"><img class="img-fluid" src="../img/logo.png" alt="logoHIS"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="menuPrincipal" class="collapse navbar-collapse">
+					<ul class="list-inline navbar-nav mx-auto">
+						<li class="list-inline-item nav-item active"><a class="lato nav-link" href="index.html">Principal</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="services.html">Servicios</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="news.html">Referencias</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="us.html">Nosotros</a></li>
+						<li class="list-inline-item nav-item"><a class="lato nav-link" href="contactus.html">Contáctenos</a></li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+					  <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+					  <button class="lato btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+					</form>
+				</div>
+			</nav>
+		</div>
+		
+		<br>
+		<section>
+			<div class="container" id="contenedorServicios">
+				<div class="row" id="filaServicios1">
+					<div id="servicios1" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article>
+							<header>
+								<h2>Equipamiento de aulas activas</h2>
+							</header>
+							<p>Proporcionamos equipos de última generación que nos permitan trabajar a la par con aplicaciones de ingeniería,
+							desarrolladas para ambientes multimedios de 64 bits, como Autocad, Adobe, MathLab, etc.</p>
+						</article>
+					</div>
+					<div id="servicios2" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article>
+							<header>
+								<h2>Data Center y Cableado Estructurado</h2>
+							</header>
+							<p>Ofrecemos soluciones y servicios para el cableado de su oficina u edificio, con el fin de ofrecerle una conectividad
+							de todos sus equipos activos, permitiendo la integración con los diferentes servicios que disponga:
+							telefonía, datos, seguridad, biometría, etc. , es decir, todo lo referente al cableado voz-datos para redes de comunicaciones.</p>
+						</article>
+					</div>
+					<div  id="servicios3" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article>
+							<header>
+								<h2>Redes e Instalaciones eléctricas</h2>
+							</header>
+							<p>Ofrecemos redes eléctricas y subestaciones en media y baja tensión, instalaciones eléctricas internas, iluminación 
+							interior, exterior, ornamental y alumbrado público.</p>
+						</article>
+					</div>
+				</div>
+				<br>
+				<div class="row" id="filaServicios2">
+					<div id="servicios4" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article >
+							<header>
+								<h2>Equipamiento de laboratorios de computación</h2>
+							</header>
+							<p>Creación de laboratorios para computadoras de última generación con aplicaciones para el aprendizaje de los estudiantes.</p>
+						</article>
+					</div>
+					<div id="servicios5" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article>
+							<header>
+								<h2>Automatización</h2>
+							</header>
+							<p>Automatización de salas de audio y video, auditorios, coliseos, edificios inteligentes, oficinas, hogar, entre otros.</p>
 
-				</article>
-				<article  id="servicios6" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Seguridad</h2>
-					</header>
-					<p>Videovigilancia, control de acceso y control de entrada/salida de personal; utilizando dispositivos biométricos y software de administración de marcaciones.</p>
-				</article>
+						</article>
+					</div>
+					<div id="servicios6" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article>
+							<header>
+								<h2>Seguridad</h2>
+							</header>
+							<p>Videovigilancia, control de acceso y control de entrada/salida de personal; utilizando dispositivos biométricos y software de administración de marcaciones.</p>
+						</article>
+					</div>
+				</div>
+				<br>
+				<div class="row" id="filaServicios3">
+					<div id="servicios7" class="col-12 col-sm-12 col-md-6 col-lg-4">
+						<article>
+							<header>
+								<h2>Telefonía VOIP</h2>
+							</header>
+							<p>Voice Over Internet Protocol, la nueva plataforma tecnológica para telefonía que permite tener su oficina en cualquier lugar del mundo.</p>
+						</article>
+					</div>
+				</div>
 			</div>
-			<div class="row" id="filaServicios3">
-				<article  id="servicios7" class="col-12 col-sm-12 col-md-6 col-lg-4">
-					<header>
-						<h2>Telefonía VOIP</h2>
-					</header>
-					<p>Voice Over Internet Protocol, la nueva plataforma tecnológica para telefonía que permite tener su oficina en cualquier lugar del mundo.</p>
-				</article>
-			</div>
+		</section>
+		<br>
+		<div class="row">
+			<footer class="col col-12">
+				<br>
+				<div class="row">
+					<div class="col">
+						<a class="lato wl" href="index.html">Principal  </a>
+						<a class="lato wl" href="services.html">Servicios  </a>
+						<a class="lato wl" href="news.html">Referencias  </a>
+						<a class="lato wl" href="us.html">Nosotros  </a>
+						<a class="lato wl" href="contactus.html">Contáctenos</a>
+					</div>
+					
+				</div>
+				<br>
+				<div class="row">
+					<div class="col">
+						<p class="lato wl">©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.</p>	
+					</div>
+				</div>
+			</footer>
 		</div>
-	</section>
-	<footer>
-		<div class="lato">
-			©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.
-		</div>
-	</footer>
+	</div>
+	<script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     
 </body>
 </html>
