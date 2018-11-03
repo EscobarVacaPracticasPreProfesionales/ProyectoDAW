@@ -5,6 +5,8 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
 
+
+
 #line {
 	border: 1px solid black;
 }
@@ -37,6 +39,6 @@ font-family: 'Raleway', sans-serif;
 	color: #FFFFFF;
 }
 
-footer{
+.footer{
 	background-color: #01090F;
 }

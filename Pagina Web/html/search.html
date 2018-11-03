@@ -7,36 +7,71 @@
 <title>HIS Buscador</title>
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 <link rel="stylesheet" href="../css/header_footer.css" type="text/css">
+	<link rel="stylesheet" href="../css/search.css" type="text/css">
 </head>
 
-<body>
-<section class="container" id="top">
-        <header class="row" id="logoholder">
-            <img class="col-auto col-sm-12 col-md-12 col-lg-4" src="../img/logo.png" alt="logoHIS">
-        </header>
-        <hr class="col-" id="line">
-        <nav class="row" id="navbar">
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="index.html">Principal</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="services.html">Servicios</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="news.html">Referencias</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="us.html">Nosotros</a>
-            <a class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" href="contactus.html">Contáctenos</a>
-            <input class="col-12 col-sm-12 col-md-4 col-lg-2 border border-dark" type="search" id="buscador" name="buscadorHIS" placeholder="Buscar">
-        </nav>
-    </section>
-    <br>
-    <section>
-        <header>
-            <h2>Resultados obtenidos:</h2>
-            <p>Aquí se mostrarán los resultados de la búsqueda.</p>
-        </header>
-    </section>
-    <footer>
-        <div class="lato">
-            ©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.
-        </div>
-    </footer>
+	<body>
+		<div class="container">
+		<div class="row">
+			<div class="col col-12">
+				<div class="row">
+					<header class="col col-12 col-md-6 col-lg-4 d-none d-md-block" id="logoholder">
+						<img class="img-fluid " src="../img/logo.png" alt="logoHIS">
+					</header>
+				</div>
 
-    
-</body>
+				<hr class="d-none d-md-block" id="line">
+				<nav class="navbar navbar-expand-md navbar-light col">
+					<a class="navbar-brand d-md-none d-sm-block" href="index.html"><img class="img-fluid" src="../img/logo-icono.png" alt="logoHIS"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div id="menuPrincipal" class="collapse navbar-collapse justify-content-between">
+						<ul class="list-inline navbar-nav">
+							<li class="list-inline-item nav-item active"><a class="lato nav-link" href="index.html">Principal</a></li>
+							<li class="list-inline-item nav-item"><a class="lato nav-link" href="services.html">Servicios</a></li>
+							<li class="list-inline-item nav-item"><a class="lato nav-link" href="news.html">Referencias</a></li>
+							<li class="list-inline-item nav-item"><a class="lato nav-link" href="us.html">Nosotros</a></li>
+							<li class="list-inline-item nav-item"><a class="lato nav-link" href="contactus.html">Contáctenos</a></li>
+						</ul>
+						<form class="form-inline my-lg-3">
+						  <input class="form-control mr-2" type="search" placeholder="Buscar..." aria-lael="Search">
+						  <a href="search.html" class="lato btn btn-info" type="submit">Buscar</a>
+						</form>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<section>
+				<header>
+					<h2>Resultados obtenidos:</h2>
+					<p>Aquí se mostrarán los resultados de la búsqueda.</p>
+				</header>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<ul class="list-inline">
+						<li class="list-inline-item"><a class="lato wl nav-link" href="index.html">Principal</a></li>
+						<li class="list-inline-item"><a class="lato wl nav-link" href="services.html">Servicios</a></li>
+						<li class="list-inline-item"><a class="lato wl nav-link" href="news.html">Referencias</a></li>
+						<li class="list-inline-item"><a class="lato wl nav-link" href="us.html">Nosotros</a></li>
+						<li class="list-inline-item"><a class="lato wl nav-link" href="contactus.html">Contáctenos</a></li>
+					</ul>
+
+				</div>
+				<div class="row">
+					<div class="col">
+						<p class="lato wl">©2018 HIS Sistemas C. Ltda. Todos los derechos reservados.</p>	
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="../js/jquery-3.3.1.slim.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+	</body>
 </html>
