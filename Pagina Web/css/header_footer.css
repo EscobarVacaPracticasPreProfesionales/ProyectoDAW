@@ -6,7 +6,6 @@ font-family: 'Raleway', sans-serif;
 */
 
 
-
 #line {
 	border: 1px solid black;
 }
@@ -41,4 +40,8 @@ font-family: 'Raleway', sans-serif;
 
 .footer{
 	background-color: #01090F;
+}
+
+.footer a:hover{
+	color:white;
 }

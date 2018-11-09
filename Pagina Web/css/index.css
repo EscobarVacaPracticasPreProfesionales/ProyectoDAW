@@ -1,16 +1,47 @@
 
-
 .tituloP,.textoP,.boton,.imgen{
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	text-align: center;
-}
-
-.prod{
-	height:  100%;
 }
 
 .ik{
 	height: 140px;
 	width: 140px;
+}
+
+.tituloP, .textoP{
+	height: 40%;
+}
+
+
+.prod{
+	height: 100px;
+}
+
+
+h1,h2{
+	font-size: 1rem;
+}
+
+@media (min-width: 544px) {  
+	h1,h2{font-size: 1.2rem;}
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {   
+	h1,h2{font-size:1.5rem;}/*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.prod {height:100%;}
+	h1{font-size:2rem;}/*1rem = 16px*/
+	h2{font-size: 1.75rem}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+	.prod {height:100%;} /*1rem = 16px*/    
+	h1{font-size:2.5rem;} 
+	h2{font-size: 2rem;}
 }
