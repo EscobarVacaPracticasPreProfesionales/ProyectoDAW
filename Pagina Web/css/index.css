@@ -1,23 +1,34 @@
-
-.tituloP,.textoP,.boton,.imgen{
+.center{
 	margin: auto;
 	text-align: center;
 }
 
+
 .ik{
-	height: 140px;
-	width: 140px;
+	height: 120px;
+	width: 120px;
 }
 
-.tituloP, .textoP{
-	height: 40%;
+.tituloP{
+	height: 30%;
 }
 
+.textoP{
+	height: 25%;
+}
 
-.prod{
+#clientes{
+	background-color: #5CB1F7;
+}
+
+div[id^=prodDato]{
 	height: 100px;
+	background-color: black;
 }
 
+div[id^=prodDato]:first-child{
+	max-height: 100%;
+}
 
 h1,h2{
 	font-size: 1rem;
@@ -25,23 +36,27 @@ h1,h2{
 
 @media (min-width: 544px) {  
 	h1,h2{font-size: 1.2rem;}
+	.ik{height: 140px;width: 140px;}
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {   
 	h1,h2{font-size:1.5rem;}/*1rem = 16px*/
+	.ik{height: 145px;width: 145px;}
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-	.prod {height:100%;}
+	div[id^=prodDato] {height:100%;}
 	h1{font-size:2rem;}/*1rem = 16px*/
 	h2{font-size: 1.75rem}
+	.ik{height: 150px;width: 150px;}
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-	.prod {height:100%;} /*1rem = 16px*/    
+	div[id^=prodDato] {height:100%;} /*1rem = 16px*/    
 	h1{font-size:2.5rem;} 
 	h2{font-size: 2rem;}
+	.ik{height: 155px;width: 155px;}
 }

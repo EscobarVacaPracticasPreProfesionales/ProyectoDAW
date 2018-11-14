@@ -3,11 +3,12 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
+Rojito, celestito,gris oscuro, blanquito hueso, gris medio, celestito medio
+#F92222. #5CB1F7, #272C30, #FBFBFB, #9AABB8, #39BDDC
 */
 
-
 #line {
-	border: 1px solid black;
+	border: .5px solid black;
 }
 
 #navbar a, nav input{
@@ -16,9 +17,6 @@ font-family: 'Raleway', sans-serif;
 	text-decoration: none;
 }
 
-#navbar a:hover {
-	background-color: #5CB1F7;
-}
 
 .lato{
 	font-family: 'Lato', sans-serif;
@@ -39,9 +37,45 @@ font-family: 'Raleway', sans-serif;
 }
 
 .footer{
-	background-color: #01090F;
+	background-color: #272C30;
 }
 
 .footer a:hover{
-	color:white;
+	color:#5CB1F7;
+	text-decoration: none;
 }
+
+.btn1{
+	border-color: #39BDDC;
+	color: #5CB1F7;
+}
+
+.btn1:hover{
+	background-color: #5CB1F7;
+	border-color: #39BDDC;
+	color: white;
+}
+
+.btn2{
+	background-color: #5CB1F7;
+	border-color: #39BDDC;
+	color: white;
+}
+
+.btn2:hover{
+	background-color: white;
+	border-color: #39BDDC;
+	color: #5CB1F7;
+}
+
+.btn3{
+	border-color: white;
+	color: white;
+}
+
+.btn3:hover{
+	background-color: white;
+	border-color: #39BDDC;
+	color: #5CB1F7;
+}
+
