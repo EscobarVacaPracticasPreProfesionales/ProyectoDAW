@@ -1,7 +1,29 @@
 div[id^=servicios]{
 	border-style: solid;
-    border-color: black;
-    border-width: 1px;
-
+  border-color: black;
+  border-width: 1px;
+  position:relative;
 }
 
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #5CB1F7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+div[id^=servicios]:hover .overlay {
+  height: 100%;
+}
