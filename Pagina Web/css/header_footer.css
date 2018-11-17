@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway');
 /*
+Parrafos, botones, etc
 font-family: 'Lato', sans-serif;
+Titulos
 font-family: 'Montserrat', sans-serif;
+Subtitulos y parrafos importantisimos (?)
 font-family: 'Raleway', sans-serif;
 Rojito, celestito,gris oscuro, blanquito hueso, gris medio, celestito medio
 #F92222. #5CB1F7, #272C30, #FBFBFB, #9AABB8, #39BDDC
@@ -11,17 +14,13 @@ Rojito, celestito,gris oscuro, blanquito hueso, gris medio, celestito medio
 	border: .5px solid black;
 }
 
-#navbar a, nav input{
-	color: black;
-	text-align: center;
-	text-decoration: none;
+.sticky-top{
+	background-color: #FBFBFB;
 }
 
-
-.lato{
-	font-family: 'Lato', sans-serif;
+.sticky-top input,div[class^=container] a,.footer p{
+	font-size: 0.8rem;
 }
-
 
 .mont{
 	font-family: 'Montserrat' ,sans-serif;
@@ -32,18 +31,19 @@ Rojito, celestito,gris oscuro, blanquito hueso, gris medio, celestito medio
 	font-family: 'Raleway',sans-serif;
 }
 
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+
 .wl{
 	color: #FFFFFF;
 }
 
 .footer{
-	background-color: #272C30;
+	background-color: #9AABB8;
 }
 
-.footer a:hover{
-	color:#5CB1F7;
-	text-decoration: none;
-}
 
 .btn1{
 	border-color: #39BDDC;
@@ -54,6 +54,7 @@ Rojito, celestito,gris oscuro, blanquito hueso, gris medio, celestito medio
 	background-color: #5CB1F7;
 	border-color: #39BDDC;
 	color: white;
+	
 }
 
 .btn2{
@@ -79,3 +80,32 @@ Rojito, celestito,gris oscuro, blanquito hueso, gris medio, celestito medio
 	color: #5CB1F7;
 }
 
+img[id^=logo]{
+	height: 50px;
+	width: auto;
+	margin-top: 15px;
+}
+
+
+/*Small devices (smartphones, 544 and up)*/
+@media (min-width: 544px) {  
+	.sticky-top input,div[class^=container] a,.footer p{
+		font-size: 0.9rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+	.sticky-top input,div[class^=container] a,.footer p{
+		font-size: 1rem;
+	}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {     
+	
+}

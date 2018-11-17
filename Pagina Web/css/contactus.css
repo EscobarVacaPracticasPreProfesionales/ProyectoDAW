@@ -5,16 +5,24 @@
 	background-color: black;
 }
 
-label,#consultasHolder h1{
-	color: white;
+.form-group .form-control{
+	background-color: black;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #737373;
+
 }
 
-#mapa img{
-	display: block;
+.form-group .form-control:focus{
+	background-color: black;
+	outline: none;
+	color:white;
+}
+
+#map{
+	height: 400px;
 	width: 100%;
-	height: auto;
 }
-
 #corr{
 	margin:auto;
 }

@@ -1,10 +1,54 @@
-/* CSS Document */
+h1{
+	font-size: 1em;
+}
 .imgen{
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	text-align: center;
 }
-
+#nosotros hr{
+	border-color: #C7C7C7;
+	margin-top: 0;
+}
 aside{
 	background-color: #5CB1F7;
+}
+
+#nosotros p{
+	text-align: justify;
+	font-size: .8rem;
+}
+
+#nosotros h1{
+	font-size: 1rem;
+}
+
+#objholder li{
+	font-size: .75rem;
+	margin-bottom: 5px;
+}
+
+@media (min-width: 544px) {  
+	#nosotros h1{font-size: 1.5rem;}
+	#nosotros p{font-size: 1.2rem;}
+	#objholder li{font-size: 1rem;}
+}
+
+ 
+ /*Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+	body h1{font-size:1.65rem;}
+	body h2{font-size: 1.5rem}
+	#objholder li{font-size: 1.2rem;margin-bottom: 20px;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	body h1{font-size:1.75rem;}
+	h2{font-size: 1.75rem}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {     
+	body h1{font-size:2rem;} 
+	h2{font-size: 2rem;}
 }
