@@ -1,14 +1,25 @@
 h1{
-	font-size: 1em;
+	font-size: 3rem;
 }
+
 .imgen{
 	margin: auto;
 	text-align: center;
 }
+
+
+
+/*box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;
+*/
+center img{
+	box-shadow: 3px 3px 10px 3px #272C30;
+}
+
 #nosotros hr{
 	border-color: #C7C7C7;
 	margin-top: 0;
 }
+
 aside{
 	background-color: #5CB1F7;
 }

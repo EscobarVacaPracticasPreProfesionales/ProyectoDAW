@@ -1,14 +1,8 @@
 // JavaScript Document
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
+function init_map(){
+	"use strict";
+	var myOptions = {zoom:16,center:new google.maps.LatLng(-2.2143109,-79.88885909999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('map'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-2.2143109,-79.88885909999999)});infowindow = new google.maps.InfoWindow({content:'<strong>HIS Sistemas</strong><br>Chimborazo 3216 entre Vacas Galindo y Cañar<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
 }
 
-$(document).ready(function(){
-	initMap();
-});
+
+init_map();
