@@ -16,16 +16,7 @@ function showSlides(){
 	setTimeout(showSlides,2500);
 }
 
-function activePage(){
-	"use strict";
-	$('.navbar ul a').each(function() {
-		console.log(location.href);
-    if ($(this).attr('href') === location.href.split("/").slice(-1)){ $(this).addClass('active'); }
-	});
-}
-
 $(document).ready(function(){
 	"use strict";
-	activePage();
 	showSlides();
 });
