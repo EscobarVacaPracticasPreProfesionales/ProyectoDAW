@@ -8,6 +8,13 @@ p{
 	font-family: 'Lato', sans-serif;
 }
 
+canvas{
+  width:100%;
+}
+
+.grafico{
+  margin:auto;
+}
 
 .overlay {
   position: absolute;
