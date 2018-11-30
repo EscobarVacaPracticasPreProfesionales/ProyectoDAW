@@ -33,15 +33,23 @@ new Chart(document.getElementById("graficoBarras"), {
         {
           label: "Número de proyectos realizados por año",
           backgroundColor: ["#5CB1F7","#5CB1F7","#5CB1F7","#5CB1F7","#5CB1F7"],
-          data: [1,3,3,4,3]
+          data: [1,1,3,4,2]
         }
       ]
     },
     options: {
-      legend: { display: true },
-      title: {
-        display: true,
-        text: 'Proyectos realizados por año'
-      }
+        legend: { display: true },
+        title: {
+            display: true,
+            text: 'Proyectos realizados por año'
+        },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        },
+    
     }
 });
