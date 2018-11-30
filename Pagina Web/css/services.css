@@ -9,7 +9,7 @@ div[id^=servicios]{
 }
 
 
-p{
+#contenedorServicios p{
   text-align: center;
   font-family: 'Lato', sans-serif;
   color:white;
