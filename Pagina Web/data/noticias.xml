@@ -1,30 +1,57 @@
-<noticias>
-  <noticia>
-    <titulo>Presidencia de la República del Ecuador</titulo>
-    <contenido>Formamos parte del proceso de remodelación y automatización del despacho presidencial en el palacio de Carondelet ubicado en Quito, instalación de telefonía IP y cableado estructurado para sistema de seguridad del despacho presidencial y oficinas de secretarios de estado,  e instalaciones eléctricas.</contenido>
-  </noticia>
-  <noticia>
-    <titulo>Monasterio de Nuestra Señora de la Eucaristía</titulo>
-    <contenido>Proyecto de reingeniería eléctrica, construcción de cámara para transformadores, instalación de dos transformadores trifásicos de 250 kva y 200 kva respectivamente, cambio de todo el sistema de acometidas y tableros de bifásico a trifásico, soterramiento de acometidas con cable TTU2 y de media tensión, conversión de generador de bifásico a trifásico, instalación de dos tableros automáticos de transferencia, cambio de sistema de iluminación del templo a luminarias LED, instalación de elevador eléctrico e hidráulico.</contenido>
-  </noticia>
-  <noticia>
-    <titulo>Universidad Laica Vicente Rocafuerte</titulo>
-    <contenido>Instalación de cableado de fibra, adecuación de Datacenter, planificación, implementación e instalación de la plataforma de cableado estructurado de datos en todos los edificios de la universidad, repotenciación del cabelado de  datos con la instalación de módulos "stack" CISCO para switches apilables CISCO catalyst 2960, automatización de sala de reuniones de rectorado, instalación de redes inalámbricas, implementación de sistema de control de personal con relojes biométricos, adecuación de 18 laboratorios de computación.</contenido>
-  </noticia>
-  <noticia>
-    <titulo>Colegio Técnico Salesiano San Rafael</titulo>
-    <contenido>Instalación e implementación de la plataforma de cableado estructurado en toda el área educativa y administrativa del colegio, instalación de red de circuito de cámaras análogas outdoor, instalación de red de fibra óptica (backbone), redundantes, instalación de correctores de voltaje, venta de equipos y adecuación de infraestructura para 4 laboratorios de comptuación, adecuación de Datacenter para servidores de red, instalación de red WiFi en todo el colegio.</contenido>
-  </noticia>
-  <noticia>
-    <titulo>Unidad Educativa Domingo Savio</titulo>
-    <contenido>Instalación e implementación de cableado estructurado para red de laboratorios de computación del colegio, instalación de control biométrico para personal educativo, adecuación de Datacenter para server de red.</contenido>
-  </noticia>
-  <noticia>
-    <titulo>Unidad Educativa FAE# 2</titulo>
-    <contenido>Venta de equipos de computación, venta de Pizarras Interactivas y proyectores de video, instalación de red WiFi local y administrativa, implementacion de Datacenter , instalacion y adecuación de Sala Principal de Reuniones para Personal Administrativo (Mobiliario y accesorios tecnologicos para la sala de reuniones).</contenido>
-  </noticia>
-  <noticia>
-    <titulo>Galasam Internacional</titulo>
-    <contenido>Instalación de Red de Datos y ventas de equipos de computación, readecuación de counter de atención al público, intalación de server administrativo y server firewall para la red, soporte técnico para mantenimiento de equipos.</contenido>
-  </noticia>
-</noticias>
+<items>
+	<item>
+	<titulo>Presidencia de la República del Ecuador</titulo>
+	<contenido>Formamos parte del proceso de remodelación y automatización del despacho presidencial en el palacio de Carondelet ubicado en Quito, instalación de telefonía IP y cableado estructurado para sistema de seguridad del despacho presidencial y oficinas de secretarios de estado,  e instalaciones eléctricas.</contenido><url>../html/news.html</url>
+		<pag>Referencias</pag>
+	</item>
+	<item>
+	<titulo>Monasterio de Nuestra Señora de la Eucaristía</titulo>
+	<contenido>Proyecto de reingeniería eléctrica, construcción de cámara para transformadores, instalación de dos transformadores trifásicos de 250 kva y 200 kva respectivamente, cambio de todo el sistema de acometidas y tableros de bifásico a trifásico, soterramiento de acometidas con cable TTU2 y de media tensión, conversión de generador de bifásico a trifásico, instalación de dos tableros automáticos de transferencia, cambio de sistema de iluminación del templo a luminarias LED, instalación de elevador eléctrico e hidráulico.</contenido><url>../html/news.html</url><pag>Referencias</pag>
+	</item>
+	<item>
+	<titulo>Universidad Laica Vicente Rocafuerte</titulo>
+	<contenido>Instalación de cableado de fibra, adecuación de Datacenter, planificación, implementación e instalación de la plataforma de cableado estructurado de datos en todos los edificios de la universidad, repotenciación del cabelado de  datos con la instalación de módulos "stack" CISCO para switches apilables CISCO catalyst 2960, automatización de sala de reuniones de rectorado, instalación de redes inalámbricas, implementación de sistema de control de personal con relojes biométricos, adecuación de 18 laboratorios de computación.</contenido><url>../html/news.html</url><pag>Referencias</pag>
+	</item>
+	<item>
+	<titulo>Colegio Técnico Salesiano San Rafael</titulo>
+	<contenido>Instalación e implementación de la plataforma de cableado estructurado en toda el área educativa y administrativa del colegio, instalación de red de circuito de cámaras análogas outdoor, instalación de red de fibra óptica (backbone), redundantes, instalación de correctores de voltaje, venta de equipos y adecuación de infraestructura para 4 laboratorios de comptuación, adecuación de Datacenter para servidores de red, instalación de red WiFi en todo el colegio.</contenido><url>../html/news.html</url><pag>Referencias</pag>
+	</item>
+	<item>
+	<titulo>Unidad Educativa Domingo Savio</titulo>
+	<contenido>Instalación e implementación de cableado estructurado para red de laboratorios de computación del colegio, instalación de control biométrico para personal educativo, adecuación de Datacenter para server de red.</contenido>
+	<url>../html/news.html</url><pag>Referencias</pag>
+	</item>
+	<item>
+	<titulo>Unidad Educativa FAE# 2</titulo>
+	<contenido>Venta de equipos de computación, venta de Pizarras Interactivas y proyectores de video, instalación de red WiFi local y administrativa, implementacion de Datacenter , instalacion y adecuación de Sala Principal de Reuniones para Personal Administrativo (Mobiliario y accesorios tecnologicos para la sala de reuniones).</contenido><url>../html/news.html</url><pag>Referencias</pag>
+	</item>
+	<item>
+	<titulo>Galasam Internacional</titulo>
+	<contenido>Instalación de Red de Datos y ventas de equipos de computación, readecuación de counter de atención al público, intalación de server administrativo y server firewall para la red, soporte técnico para mantenimiento de equipos.</contenido><url>../html/news.html</url><pag>Referencias</pag>
+	</item>
+	<item>
+		<titulo>Equipammiento de aulas activas</titulo>
+		<contenido>Proporcionamos equipos de última generación que nos permitan trabajar a la par con aplicaciones de ingeniería, desarrolladas para ambientes multimedios de 64 bits, como Autocad, Adobe, MathLab, etc.</contenido><url>../html/services.html</url><pag>Servicios</pag>
+	</item>
+	<item>
+		<titulo>Data Center y Cableado Estructurado</titulo>
+		<contenido>Ofrecemos soluciones para el cableado de su oficina u edificio, con el fin de ofrecerle conectividad de todos sus equipos activos, permitiendo la integración con los diferentes servicios referentes al cableado voz-datos.</contenido><url>../html/services.html</url><pag>Servicios</pag>
+	</item>
+	<item>
+		<titulo>Redes e instalaciones eléctricas</titulo>
+		<contenido>Ofrecemos redes eléctricas y subestaciones en media y baja tensión, instalaciones eléctricas internas, iluminación interior, exterior, ornamental y alumbrado público.</contenido>
+		<url>../html/services.html</url><pag>Servicios</pag>
+	</item>
+	<item>
+		<titulo>Equipamiento de laboratorios de computación</titulo>
+		<contenido>Creación de laboratorios para computadoras de última generación con aplicaciones para el aprendizaje de los estudiantes.</contenido><url>../html/services.html</url><pag>Servicios</pag>
+	</item>
+	<item>
+		<titulo>Automatización</titulo>
+		<contenido>Automatización de salas de audio y video, auditorios, coliseos, edificios inteligentes, oficinas, hogar, entre otros.</contenido><url>../html/services.html</url><pag>Servicios</pag>
+	</item>
+	<item>
+		<titulo>Seguridad</titulo>
+		<contenido>Videovigilancia, control de acceso y control de entrada/salida de personal; utilizando dispositivos biométricos y software de administración de marcaciones.</contenido><url>../html/services.html</url><pag>Servicios</pag>
+	</item>
+</items>

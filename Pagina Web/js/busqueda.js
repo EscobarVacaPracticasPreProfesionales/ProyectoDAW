@@ -1,7 +1,7 @@
 // JavaScript Document
 
 
-function agregarNoticia(titulo, contenido){
+function agregarNoticia(titulo, contenido,link,pag){
 	"use strict";
 	var title = $("<h5/>", {
 	  "class": "col col-12 mt-3",
@@ -18,6 +18,15 @@ function agregarNoticia(titulo, contenido){
 	  	html:contenido
 	  })
 	});
+	
+	var a = $("<div/>",{
+	  "class": "col col-12 col-md-8",
+	  html: $("<a/>",{
+		"class":"lato",
+		  "href":link,
+	  	html:pag
+	  })
+	});
 
 	var div = $( "<div/>", {
 	  "class": "row"
@@ -25,6 +34,7 @@ function agregarNoticia(titulo, contenido){
 
 	title.appendTo(div);
 	p.appendTo(div);
+	a.appendTo(div);
 	div.appendTo( "#noticias" );
 }
 
@@ -40,12 +50,13 @@ function cargarNoticias(texto) {
 				$("#noticias").text("No hay resultados");
 			}
 			else{
-				$(xml).find('noticia').each(function(){
+				$(xml).find('item').each(function(){
 				var titulo = $(this).find('titulo').text();
 				var contenido = $(this).find('contenido').text();
-				
+				var link = $(this).find('url').text();
+				var pag = $(this).find('pag').text();
 				if(titulo.includes(texto) || contenido.includes(texto)){
-					agregarNoticia(titulo, contenido);
+					agregarNoticia(titulo, contenido,link,pag);
 					count++;
 				}
 				

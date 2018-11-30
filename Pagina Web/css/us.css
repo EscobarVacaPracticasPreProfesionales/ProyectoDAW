@@ -8,11 +8,45 @@ h1{
 }
 
 
+#timeline{
+	margin-top: 50px;
+	font-size: .9rem;
+}
 
-/*box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;
-*/
-center img{
+#timeline time{
+	display: inline-block;
+    width: 13em;
+    margin-left: -13.5em;
+    font-weight: bold;
+    text-align: right;
+    font-size: 90%;
+}
+
+
+#timeline li {
+    display: block;
+    padding-left: 0.33em;
+    margin-left: 1em;
+    border-left: solid #5CB1F7;
+    text-align: left;
+}
+
+#timeline time::after {
+    content: ' -';
+	color: #5CB1F7;
+	font-weight: bolder;
+}
+
+#timeline li span{
+	display: block;
+	padding-bottom: 10px;
+}
+
+
+
+figure img{
 	box-shadow: 3px 3px 10px 3px #272C30;
+	border-radius: 5px;
 }
 
 #nosotros hr{
@@ -21,7 +55,7 @@ center img{
 }
 
 aside{
-	background-color: #5CB1F7;
+	background-color: black;
 }
 
 #nosotros p{
@@ -40,26 +74,27 @@ aside{
 
 @media (min-width: 544px) {  
 	#nosotros h1{font-size: 1.5rem;}
-	#nosotros p{font-size: 1.2rem;}
+	#nosotros p{font-size: 1rem;}
 	#objholder li{font-size: 1rem;}
 }
 
  
  /*Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-	body h1{font-size:1.65rem;}
-	body h2{font-size: 1.5rem}
-	#objholder li{font-size: 1.2rem;margin-bottom: 20px;}
+	#nosotros h1{font-size:1.65rem;}
+	#nosotros p{font-size: 1.1rem}
+	#objholder li{font-size: 1.1rem;margin-bottom: 20px;}
+	#timeline{
+		font-size: 1rem;
+	}	
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-	body h1{font-size:1.75rem;}
-	body h2{font-size: 1.75rem}
+	#nosotros h1{font-size:1.75rem;}
 }
  
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {     
-	body h1{font-size:2rem;} 
-	body h2{font-size: 2rem;}
+	#nosotros h1{font-size:2rem;} 
 }
